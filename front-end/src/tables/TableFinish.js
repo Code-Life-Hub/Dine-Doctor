@@ -6,19 +6,26 @@ import React from "react";
 import ErrorAlert from "../layout/ErrorAlert";
 
 const TableFinish = ({ table, clickHandler, error }) => {
-	return (
-		table.reservation_id && (
-			<div>
-				<ErrorAlert error={error} />
-				<button
-					className="btn btn-danger"
-					type="button"
-					onClick={(e) => clickHandler(e, table.table_id)}>
-					Finish
-				</button>
-			</div>
-		)
-	);
+  const newHandler = (e) => {
+    e.preventDefault();
+    clickHandler(table.table_id);
+    console.log("table.table_id", table.table_id);
+  };
+  return (
+    table.reservation_id && (
+      <div>
+        <ErrorAlert error={error} />
+        <button
+          data-table-id-finish={`${table.table_id}`}
+          className="btn btn-danger"
+          type="button"
+          onClick={newHandler}
+        >
+          Finish
+        </button>
+      </div>
+    )
+  );
 };
 
 export default TableFinish;

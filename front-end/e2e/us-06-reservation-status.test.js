@@ -126,7 +126,7 @@ describe("US-06 - Reservation status - E2E", () => {
         path: ".screenshots/us-06-finish-after.png",
         fullPage: true,
       });
-
+      console.log(reservation.reservation_id);
       expect(
         await page.$(
           `[data-reservation-id-status="${reservation.reservation_id}"]`
