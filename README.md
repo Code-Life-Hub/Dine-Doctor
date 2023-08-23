@@ -16,6 +16,9 @@ The dashboard provides an overview of reservations and table statuses for a spec
         Table Status: Indicates whether the table is free or occupied.
         Action: Allows restaurant personnel to perform actions on the table, such as assigning a reservation to it.
 
+        Dashboard View
+![Dashboard Image](https://i.imgur.com/pHsxghz.png)
+
 2. Search
 
 Allows restaurant personnel to search for reservations using various criteria, such as phone number or reservation date.
@@ -28,5 +31,4 @@ Details such as customer name, contact number, reservation date and time, and th
 Allows restaurant personnel to add a new table to the system.
 The table's name (or identifier) and its capacity (number of people it can seat) can be specified.
 
-Sample Dashboard View
-![Dashboard Image](https://i.imgur.com/IC2EsLy.png)
+
