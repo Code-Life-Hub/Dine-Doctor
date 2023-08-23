@@ -15,8 +15,7 @@ The dashboard provides an overview of reservations and table statuses for a spec
         Capacity: The number of people that can be seated at the table.
         Table Status: Indicates whether the table is free or occupied.
         Action: Allows restaurant personnel to perform actions on the table, such as assigning a reservation to it.
-
-        Dashboard View
+ Dashboard View
 ![Dashboard Image](https://i.imgur.com/pHsxghz.png)
 
 2. Search
