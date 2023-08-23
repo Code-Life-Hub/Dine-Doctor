@@ -26,7 +26,7 @@ This feature allows restaurant personnel to create a new reservation.
 Details such as customer name, contact number, reservation date and time, and the number of people can be entered.
 
 4. New Table
-[New Table Image](https://i.imgur.com/HFQUEa2.png)
+![New Table Image](https://i.imgur.com/HFQUEa2.png)
 Allows restaurant personnel to add a new table to the system.
 The table's name (or identifier) and its capacity (number of people it can seat) can be specified.
 
