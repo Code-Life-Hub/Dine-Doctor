@@ -1,6 +1,6 @@
-Periodic Tables: Restaurant Reservation System
+Restaurant Reservation System
 
-Welcome to the Periodic Tables Restaurant Reservation System.
+Welcome to my Restaurant Reservation System.
 This system is designed for fine dining restaurants to manage reservations and table assignments.
 Features
 1. Dashboard
