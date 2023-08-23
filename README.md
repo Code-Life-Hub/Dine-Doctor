@@ -29,4 +29,4 @@ Allows restaurant personnel to add a new table to the system.
 The table's name (or identifier) and its capacity (number of people it can seat) can be specified.
 
 Sample Dashboard View
-![Dashboard Image](https://imgur.com/a/QsfWBWG)
+![Dashboard Image](https://i.imgur.com/IC2EsLy.png)
