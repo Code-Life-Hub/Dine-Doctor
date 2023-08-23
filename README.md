@@ -1,8 +1,8 @@
-#Periodic Tables: Restaurant Reservation System
+Periodic Tables: Restaurant Reservation System
 
 Welcome to the Periodic Tables Restaurant Reservation System.
 This system is designed for fine dining restaurants to manage reservations and table assignments.
-##Features
+Features
 1. Dashboard
 
 The dashboard provides an overview of reservations and table statuses for a specific date.
@@ -28,4 +28,4 @@ Details such as customer name, contact number, reservation date and time, and th
 Allows restaurant personnel to add a new table to the system.
 The table's name (or identifier) and its capacity (number of people it can seat) can be specified.
 
-##Sample Dashboard View
+Sample Dashboard View
