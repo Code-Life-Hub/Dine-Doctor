@@ -105,6 +105,12 @@ a {
   text-decoration: underline;
 }
 
+td {
+  color: white !important;
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* -------  Media Query ------- */
 
 /*for desktop*/
