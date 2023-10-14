@@ -1,13 +1,4 @@
-        /*Desktop Styles*/
-
-@media all and (min-width: 750px) {
-  .nav-item {
-    font-size: 20px;
-  }
-  .side-bar {
-    height: 110vh;
-  }
-
+/* General Styles for all screen sizes (not within any media query) */
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -63,6 +54,7 @@ span {
   font-style: italic;
   font-size: xxx-large;
 }
+
 h4 {
   color: white;
   font-size: xx-large;
@@ -90,7 +82,6 @@ h2 {
 
 .row.mb-0.text-muted {
   justify-content: center;
-  /* border: solid blue; */
 }
 
 .form-label {
@@ -101,10 +92,9 @@ h2 {
 
 div.row.h-10 {
   background-image: url("side-img-1.jpg") !important;
-  /* border:solid green; */
 }
+
 div.col {
-  /* border:solid black; */
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
@@ -125,6 +115,14 @@ th .table {
   color: white !important;
 }
 
+/*Desktop Styles*/
+@media all and (min-width: 750px) {
+  .nav-item {
+    font-size: 20px;
+  }
+  .side-bar {
+    height: 110vh;
+  }
 }
 
 @media all and (max-width: 749px) {
