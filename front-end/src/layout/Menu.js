@@ -14,7 +14,7 @@ function Menu() {
   return (
     <nav className="navbar navbar-dark align-items-start p-0">
       <div className="container-fluid d-flex flex-column flex-sm-row p-0">
-        <link rel="stylesheet" type="text/css" href="Menu.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
 
         <Link
           className="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0"
