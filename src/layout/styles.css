@@ -105,6 +105,17 @@ a {
   text-decoration: underline;
 }
 
+td {
+  color: white !important;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.table-status,
+.table-action {
+  color: white;
+}
+
 /* -------  Media Query ------- */
 
 /*for desktop*/

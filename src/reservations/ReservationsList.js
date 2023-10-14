@@ -15,11 +15,14 @@ const ReservationsList = ({ reservations, date }) => {
       <td>{reservation.reservation_date}</td>
       <td>{reservation.reservation_time}</td>
       <td>{reservation.people}</td>
-      <td data-reservation-id-status={reservation.reservation_id}>
+      <td
+        className="table-status"
+        data-reservation-id-status={reservation.reservation_id}
+      >
         {reservation.status}
-        
       </td>
-      <td>
+
+      <td className="table-action">
         {reservation.status === "booked" && (
           <a
             className="btn btn-success"
@@ -31,7 +34,7 @@ const ReservationsList = ({ reservations, date }) => {
       </td>
       {reservation.status === "booked" || reservation.status === "seated" ? (
         <>
-          <td>
+          <td className="table-action">
             <a
               className="btn btn-primary"
               href={`/reservations/${reservation.reservation_id}/edit`}
@@ -39,7 +42,7 @@ const ReservationsList = ({ reservations, date }) => {
               Edit
             </a>
           </td>
-          <td>
+          <td className="table-action">
             <ReservationCancel reservation_id={reservation.reservation_id} />
           </td>
         </>
