@@ -110,8 +110,7 @@ td {
   font-weight: bold;
   font-style: italic;
 }
-
-.table td {
+.table {
   color: white !important;
 }
 
