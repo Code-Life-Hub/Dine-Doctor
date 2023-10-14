@@ -94,7 +94,7 @@ h2 {
 }
 
 .form-label {
-  color: White;
+  color: White !important;
   text-decoration: underline;
   font-weight: bold;
 }
