@@ -112,7 +112,7 @@ td {
 }
 
 .table td {
-  color: white;
+  color: white !important;
 }
 
 /* -------  Media Query ------- */
