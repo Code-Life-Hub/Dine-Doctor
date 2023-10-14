@@ -1,3 +1,13 @@
+        /*Desktop Styles*/
+
+@media all and (min-width: 750px) {
+  .nav-item {
+    font-size: 20px;
+  }
+  .side-bar {
+    height: 110vh;
+  }
+
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -110,15 +120,14 @@ td {
   font-weight: bold;
   font-style: italic;
 }
-.table {
+
+th .table {
   color: white !important;
 }
 
-/* -------  Media Query ------- */
+}
 
-/*for desktop*/
-
-@media all and (min-width: 750px) {
+@media all and (max-width: 749px) {
   .nav-item {
     font-size: 20px;
   }
