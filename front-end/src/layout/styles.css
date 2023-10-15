@@ -72,7 +72,7 @@ h1.h1 {
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
-  align-self:center;
+  align-self: center;
 }
 
 h2 {
@@ -119,6 +119,40 @@ td {
   color: white;
 }
 
+#first_name.form-control {
+  width: 51%;
+}
+
+#last_name.form-control {
+  width: 51%;
+}
+
+#mobile_number.form-control {
+  width: 36%;
+}
+
+#reservation_date.form-control {
+  width: 41%;
+}
+
+#reservation_time.form-control {
+  width: 22%;
+}
+
+#people.form-control {
+  width: 20%;
+}
+
+#table_name.form-control {
+  width: 35%;
+  color:red;
+}
+
+#capacity.form-control {
+  width: 20%;
+  color:red;
+}
+
 /* -------  Media Query ------- */
 
 /*for desktop*/
@@ -132,7 +166,7 @@ td {
     background-image: url("side-img-1.jpg");
     flex-wrap: wrap;
   }
-
+ 
   a.nav-link {
     font-size: 28px;
   }
@@ -141,11 +175,9 @@ td {
     background-image: url("background-img-2.jpg");
     background-size: cover;
   }
-  
+
   .side-bar {
-    
     min-width: 200px;
-    
   }
 
   h4 {
@@ -159,7 +191,42 @@ td {
     font-weight: bold;
     font-style: italic;
     font-size: 30px;
-    align-self:center;
+    align-self: center;
   }
+
+  #first_name.form-control {
+    width: 12%;
+  }
+
+  #last_name.form-control {
+    width: 12%;
+  }
+
+  #mobile_number.form-control {
+    width: 8%;
+  }
+
+  #reservation_date.form-control {
+    width: 8%;
+  }
+
+  #reservation_time.form-control {
+    width: 4%;
+  }
+
+  #people.form-control {
+    width: 3.5%;
+  }
+
+  #table_name.form-control {
+    width: 10%;
+    color:red;
+  }
+
+  #capacity.form-control {
+    width: 3.5%;
+    color:red;
+  }
+
 
 }
