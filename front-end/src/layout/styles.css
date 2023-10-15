@@ -52,11 +52,11 @@ span {
   text-decoration: underline;
   font-weight: bold;
   font-style: italic;
-  font-size: xxx-large;
+  font-size: 40px;
 }
 h4 {
   color: white;
-  font-size: xx-large;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -64,12 +64,15 @@ a.nav-link {
   color: white !important;
   text-decoration: underline;
   padding: 0px !important;
+  font-size: 18px;
 }
 
 h1.h1 {
   color: white !important;
   font-weight: bold;
   font-style: italic;
+  font-size: 20px;
+  align-self:center;
 }
 
 h2 {
@@ -120,11 +123,43 @@ td {
 
 /*for desktop*/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 679px) {
   .nav-item {
     font-size: 20px;
   }
   .side-bar {
     height: 110vh;
+    background-image: url("side-img-1.jpg");
+    flex-wrap: wrap;
   }
+
+  a.nav-link {
+    font-size: 28px;
+  }
+
+  body {
+    background-image: url("background-img-2.jpg");
+    background-size: cover;
+  }
+  
+  .side-bar {
+    
+    min-width: 200px;
+    
+  }
+
+  h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  h1.h1 {
+    color: white !important;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    align-self:center;
+  }
+
 }
