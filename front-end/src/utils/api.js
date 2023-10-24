@@ -170,7 +170,17 @@ export async function cancelReservation(reservation_id, signal) {
 }
 
 //deletes a table
+export async function deleteTable(table_id, signal) {
+  const url = new URL(`${API_BASE_URL}/tables/${table_id}`);
+  const options = {
+    method: "DELETE",
+    headers,
+    signal,
+  };
+  return await fetchJson(url, options, {});
+}
 
+// Deletes the table after the reservation is finished
 export async function finishTable(table_id, signal) {
   const url = new URL(`${API_BASE_URL}/tables/${table_id}/seat/`);
   const options = {
@@ -183,7 +193,6 @@ export async function finishTable(table_id, signal) {
 }
 
 //Retrieves all reservations with the same mobile number
-
 export async function searchReservations(mobile_number, signal) {
   const url = new URL(
     `${API_BASE_URL}/reservations?mobile_number=${mobile_number}`
